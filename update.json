@@ -1,5 +1,5 @@
 {
-  "latestVersion": "4.0",
-  "downloadUrl": "https://github.com/shinichi-c/CaveArt/releases/tag/4.0-FireFlies",
-  "changelog": "- welcome Fireflies"
+  "latestVersion": "4.2-FireFlies",
+  "downloadUrl": "https://github.com/shinichi-c/CaveArt/releases/tag/4.2-FireFlies",
+  "changelog": "- Version 4.2-FireFlies Patch\n🚀 New Features\n * Google Filament 3D Engine Integration: Added support for high-performance 3D rendering using Google Filament and gltfio libraries.\n * 3D Live Wallpapers: Implemented CaveArtFilamentService to allow .glb 3D models to be set directly as Android Live Wallpapers.\n * In-App 3D Preview: Introduced FilamentTextureController within the WallpaperDetailScreen for real-time 3D model interaction inside the Jetpack Compose UI.\n * Smart Model Handling: Added dynamic logic to automatically scale, center, and rotate 3D models.\n * Enhanced Lighting: Configured directional lighting and skybox environments.\n * Experimental Core: Integrated Filament as a primary testing tool.\n⚡ Performance & Optimization\n * Resource Handling: Disabled automatic density-based upscaling.\n * Memory Pressure Fix: Implemented a strict scaleToFit pass in BitmapHelper.\n * UI Fluidity: Resolved performance drops and lag specifically associated with the \"3D Pop\" effect when using internal app wallpapers.\n🛠️ Bug Fixes\n * Native Stability: Fixed native C++ library initialization issues."
 }
