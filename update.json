@@ -1,5 +1,5 @@
 {
   "latestVersion": "4.6-Fireflies",
-  "downloadUrl": "https://github.com/shinichi-c/CaveArt/releases/tag/4.6-Fireflies",
+  "downloadUrl": "https://github.com/shinichi-c/CaveArt/releases/tag/4.6-FireFlies",
   "changelog": "- Version 4.6-Fireflies\n🎨 Typography & Visuals\n * Dynamic TTF Engine: On-the-fly path extraction with auto font scanner and UI picker.\n * Dual-Tone Rendering: Split paths (hours, colon, mins) for dual-tone color combos.\n * Smart Color Extraction: Instant wallpaper theming via 112px image downsampling.\n * Premium Loading Overlay: Frosted overlay with glowing particles masks ML calculations.\n📐 Layout & Physics\n * Vertical Magazine Layout: New 2x2 grid layout with independent column collision.\n * Animated Morphing: Smooth horizontal/vertical interpolation with cached performance.\n * Notification Safe Zone: Auto-shrinks to a safe area when notifications appear.\n🛡️ System & Stability\n * Xposed Asset Resolution: Fixes lockscreen font loading from host APK.\n * R8 Protection: ProGuard rules to prevent stripping of Xposed modules and layouts.\n * Serialization Safety: Prevents JSON parsing crashes with LiveWallpaperConfig."
 }
